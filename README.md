@@ -142,9 +142,42 @@ The goal of this project is to develop a Jenkins pipeline for deploying a web pa
 
   - In order to connect your repo with Jenkins , create a token and paste it in the password box ( also your token's name in the username )
   
-![Screenshot 2023-02-19 at 10 12 45 AM](https://user-images.githubusercontent.com/113396342/219978486-b46d9332-fd46-4055-9156-5b8ef290d583.png)
+![Screenshot 2023-02-19 at 10 08 38 AM](https://user-images.githubusercontent.com/113396342/219978736-b5b543ad-5c9d-4eb5-91fb-05566d4b3ec7.png)
 #
 
+## Create a Pipeline
+
+![Screenshot 2023-02-19 at 1 01 45 PM](https://user-images.githubusercontent.com/113396342/219978809-383ba215-6494-4d03-9658-d51a37aa7eb3.png)
+#
+
+- As the pipeline is ready as a Jenkinsfile in the github repo , select SCM and make sure the infos are correct ( marked in the boxes ) .
+
+![Screenshot 2023-02-19 at 1 03 26 PM](https://user-images.githubusercontent.com/113396342/219979135-07546504-f8b1-47ce-a697-ea23a1836579.png)
+#
+
+- To be able to have auto trigger for the pipeline select Github Hook trigger and add weebhook to the repository.
+
+![Screenshot 2023-02-19 at 1 02 23 PM](https://user-images.githubusercontent.com/113396342/219979198-f3a4063d-52c2-4e63-8cd4-03303c0ca449.png)
+
+![Screenshot 2023-02-19 at 1 13 17 PM](https://user-images.githubusercontent.com/113396342/219979268-07004f94-9f2d-44a0-bf6e-a3a3a838ec7d.png)
+
+#
+
+- Once save the pipeline , it will start making the stages. If not , click Build now to make it start at first.
+
+## Pipeline is successfully completed 
+
+![Screenshot 2023-02-19 at 1 57 01 PM](https://user-images.githubusercontent.com/113396342/219979367-6a5d4e8f-e7d9-4925-ae8d-0573ed0251a8.png)
+#
+
+- Worker nodes has been created 
+
+![Screenshot 2023-02-19 at 1 58 46 PM](https://user-images.githubusercontent.com/113396342/219979380-25f21855-d7c3-4d3f-b387-ccf9e1074a07.png)
+#
+
+# APP IS WORKING , HERE IS THE FRONTEND WHICH WE CAN ACCESS FROM THE PORT 3000
+
+![todos_last](https://user-images.githubusercontent.com/113396342/219979413-24582ab3-f594-4416-ab04-d6eef07fe6e1.PNG)
 
   
 

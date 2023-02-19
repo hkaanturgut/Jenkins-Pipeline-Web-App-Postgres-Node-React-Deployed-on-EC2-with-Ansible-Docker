@@ -2,8 +2,11 @@
 
 ## Description
 
-The goal of this project is to develop a Jenkins pipeline for deploying a web page built with Nodejs and React frameworks on AWS Cloud infrastructure using Ansible. The infrastructure building process is managed with a control node utilizing Ansible. The infrastructure consists of one Jenkins server (Amazon Linux 2 AMI) as the Ansible control node and three EC2 worker nodes (Red Hat Enterprise Linux 8 with High Availability), which are launched on the AWS console. The web page is composed of three primary components - PostgreSQL, Nodejs, and React - each of which is served in a Docker container on a dedicated EC2 instance. PostgreSQL serves as the web page's database, while Nodejs controls the backend and React handles the frontend.
-#
+This project aims to simplify the deployment of a web application built with PostgreSQL, Node.js, and React frameworks on AWS EC2 infrastructure. The infrastructure is managed with a control node that utilizes Ansible for orchestration and Docker for containerization.
+
+The project's primary objective is to provide an end-to-end automation solution for deploying a web application, leveraging a Jenkins pipeline. The infrastructure consists of one Jenkins server acting as the Ansible control node and three EC2 instances running Red Hat Enterprise Linux 8 with High Availability.
+
+The web application is composed of three primary components - PostgreSQL, Node.js, and React - each of which runs on a dedicated EC2 instance. PostgreSQL serves as the web application's database, while Node.js and React handle the backend and frontend, respectively.
 
 ## Project Details
 
@@ -94,6 +97,9 @@ The goal of this project is to develop a Jenkins pipeline for deploying a web pa
   - Make a failure stage and ensure to destroy infrastructure, ECR repo and docker images when the pipeline failed.
   #
   
+ ## Conclusion
+This project provides a straightforward and automated solution for deploying a web application built with PostgreSQL, Node.js, and React frameworks on AWS infrastructure. The use of Ansible for infrastructure orchestration and Docker for containerization streamlines the deployment process, while the Jenkins pipeline automates the entire build and deployment process, simplifying the deployment process significantly.
+#
   # Steps
   
  - Create a Jenkins server runs in EC2 instance and a security group with Terraform

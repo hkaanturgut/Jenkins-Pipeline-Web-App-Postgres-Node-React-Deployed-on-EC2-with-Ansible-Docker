@@ -175,7 +175,8 @@ The goal of this project is to develop a Jenkins pipeline for deploying a web pa
 ![Screenshot 2023-02-19 at 1 58 46 PM](https://user-images.githubusercontent.com/113396342/219979380-25f21855-d7c3-4d3f-b387-ccf9e1074a07.png)
 #
 
-# APP IS WORKING , HERE IS THE FRONTEND WHICH WE CAN ACCESS FROM THE PORT 3000
+# Expected Outcome
+### APP IS WORKING , HERE IS THE FRONTEND WHICH CAN BE ACCESSED FROM THE PORT 3000
 
 ![todos_last](https://user-images.githubusercontent.com/113396342/219979413-24582ab3-f594-4416-ab04-d6eef07fe6e1.PNG)
 
